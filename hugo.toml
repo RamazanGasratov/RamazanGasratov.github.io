@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+languageCode = "ru-ru"
+defaultContentLanguage = "ru-ru"
+title = "Ramazan Gasratov"
+theme = "hugo-blog-awesome"
+
+[pagination]
+  pagerSize = 10
+
+[[menu.main]]
+  name = 'Главная'
+  url = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Посты'
+  url = '/posts/'
+  weight = 20
+
+[params]
+  sitename = "Ramazan Gasratov"
+  description = "Mobile Developer IOS/Android"
+  defaultColor = "dark"
+  showReadingTime = true
+  goToTop = true
+  mainSections = ["posts"]
+  dateFormat = "2 January 2006"    
+
+[params.author]
+  avatar = "873215A4-0A40-4A64-B166-F66E58132911.JPG"
+  name = "Ramazan Gasratov"
+  intro = "Ramazan Gasratov"
+  description = "Mobile Developer IOS/Android"
