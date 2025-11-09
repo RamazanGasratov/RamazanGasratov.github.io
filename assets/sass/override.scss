@@ -1,0 +1,18 @@
+// Кастомные стили для блога
+
+// Округление всех изображений в постах
+article img {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.post img {
+  border-radius: 15px;
+}
+
+main img {
+  border-radius: 15px;
+}
+
